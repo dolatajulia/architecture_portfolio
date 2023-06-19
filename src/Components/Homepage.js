@@ -3,6 +3,7 @@ import styles from "../Styling/Homepage.module.scss";
 //components
 import NavbarTop from "./NavbarTop";
 import NavbarBottom from "./NavbarBottom";
+import Slideshow from "./Slideshow";
 
 const Homepage = () => {
   return (
@@ -13,6 +14,7 @@ const Homepage = () => {
         </div>
         <NavbarTop />
       </div>
+      <Slideshow />
       <div className={styles.bottom}>
         <NavbarBottom />
         <div className={styles.marginline}>
