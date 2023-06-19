@@ -4,16 +4,16 @@ const NavbarTop = () => {
   return (
     <div className={styles.navbar}>
       <div className={styles.navbaritem}>
-        <h3>about me</h3>
-        <p>education/experience/skills</p>
+        <h1>about me</h1>
+        <p>my education, work experience and skills</p>
       </div>
       <div className={styles.navbaritem}>
-        <h3>projects</h3>
-        <p>selected works</p>
+        <h1>projects</h1>
+        <p>a collection of selected projects</p>
       </div>
       <div className={styles.navbaritem}>
-        <h3>gallery</h3>
-        <p>graphics/sketches</p>
+        <h1>gallery</h1>
+        <p>some of my graphics and sketches</p>
       </div>
     </div>
   );
