@@ -1,4 +1,10 @@
+import Subpage from "./Subpage";
+
 const Aboutme = () => {
-  return <div>about me</div>;
+  return (
+    <Subpage>
+      <h1>About me</h1>
+    </Subpage>
+  );
 };
 export default Aboutme;

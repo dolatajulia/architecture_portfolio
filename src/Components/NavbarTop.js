@@ -13,7 +13,7 @@ const NavbarTop = () => {
       </div>
       <div className={styles.navbaritem} onClick={() => navigate("projects")}>
         <h1>projects</h1>
-        <p>a collection of selected projects</p>
+        <p>my selected projects</p>
       </div>
       <div className={styles.navbaritem} onClick={() => navigate("gallery")}>
         <h1>gallery</h1>
