@@ -6,4 +6,12 @@
   justify-content: space-between;
   background-color: #000000;
   color: #ffffff;
+
+  button {
+    border: none;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    background-color: transparent;
+  }
 }
