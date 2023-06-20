@@ -24,8 +24,17 @@ const Slideshow = () => {
   }, [currentImage]);
   return (
     <div className={styles.container}>
-      <img alt="JD personal logo" src={logo} />
-      <img src={images[currentImage]} alt="cleaning images" />
+      <div className={styles.logo}>
+        <h1>Julia Dolata</h1>
+        <img alt="JD personal logo" src={logo} />
+        <h1>portfolio</h1>
+      </div>
+      <div className={styles.overlay}></div>
+      <img
+        className={styles.slideshow}
+        src={images[currentImage]}
+        alt="slideshow"
+      />
     </div>
   );
 };

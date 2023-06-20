@@ -12,8 +12,7 @@ const Subpage = (props) => {
       </div>
       {props.children}
       <div className="marginline">
-        <p>Created by Julia Dolata</p>
-        <p>2023</p>
+        <p>©2023 created by Julia Dolata, all rights reserved.</p>
       </div>
     </div>
   );

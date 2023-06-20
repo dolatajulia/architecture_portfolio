@@ -7,11 +7,13 @@
 
 .marginline {
   height: 1.5rem;
+  font-size: 0.8rem;
   width: 100%;
-  background-color: #ffffff;
-  color: #000000;
+  background-color: #000000;
+  color: #ffffff;
+  opacity: 0.3;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
-  padding: 0 4rem;
+  /* padding: 0 4rem; */
 }

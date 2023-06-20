@@ -10,17 +10,14 @@ const Homepage = () => {
   return (
     <div className={styles.container}>
       <div className={styles.top}>
-        <div className="marginline">
-          <p>The collection of selected works</p>
-        </div>
+        <div className="marginline"></div>
         <NavbarTop />
       </div>
       <Slideshow />
       <div className={styles.bottom}>
         <NavbarBottom />
         <div className="marginline">
-          <p>Created by Julia Dolata</p>
-          <p>2023</p>
+          <p>©2023 created by Julia Dolata, all rights reserved.</p>
         </div>
       </div>
     </div>
