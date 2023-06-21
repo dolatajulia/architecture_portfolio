@@ -10,7 +10,6 @@ const Homepage = () => {
   return (
     <div className={styles.container}>
       <div className={styles.top}>
-        <div className="marginline"></div>
         <NavbarTop />
       </div>
       <Slideshow />
