@@ -1,0 +1,23 @@
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+  .left {
+    display: flex;
+    align-items: flex-start;
+    margin-left: 5%;
+    position: relative;
+    h1 {
+      font-size: 3rem;
+      font-weight: 200;
+      text-transform: uppercase;
+      position: sticky;
+      top: 0;
+    }
+  }
+
+  .right {
+    display: flex;
+  }
+}
