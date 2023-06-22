@@ -13,10 +13,7 @@ const Projects = () => {
           <Box />
           <Box />
         </Section>
-        <Section title="">
-          <Box />
-          <Box />
-        </Section>
+
         <Section title="Research papers">
           <Box />
           <Box />
