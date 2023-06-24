@@ -7,11 +7,8 @@ const Subpage = (props) => {
 
   return (
     <div className={styles.container}>
-      <button onClick={() => navigate("/")}>Go Back</button>
       {props.children}
-      <div className="marginline">
-        <p>©2023 designed and created by Julia Dolata, all rights reserved.</p>
-      </div>
+      
     </div>
   );
 };
