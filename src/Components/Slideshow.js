@@ -18,7 +18,31 @@ import img12 from "../Assets/Slideshow/12.png";
 
 const Slideshow = () => {
   const [currentImage, setCurrentImage] = useState(0);
-  const images = [img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11, img12, img11, img10, img9, img8, img7, img6, img5, img4, img3, img2];
+  const images = [
+    img1,
+    img2,
+    img3,
+    img4,
+    img5,
+    img6,
+    img7,
+    img8,
+    img9,
+    img10,
+    img11,
+    img12,
+    img12,
+    img11,
+    img10,
+    img9,
+    img8,
+    img7,
+    img6,
+    img5,
+    img4,
+    img3,
+    img2,
+  ];
   const switchImage = () => {
     if (currentImage < images.length - 1) {
       setCurrentImage(currentImage + 1);
@@ -28,7 +52,7 @@ const Slideshow = () => {
   };
 
   useEffect(() => {
-    const interval = setInterval(switchImage, 500);
+    const interval = setInterval(switchImage, 300);
     return () => clearInterval(interval);
   }, [currentImage]);
   return (
@@ -38,7 +62,6 @@ const Slideshow = () => {
         <img alt="JD personal logo" src={logo} />
         <h1>portfolio</h1>
       </div>
-      <div className={styles.overlay}></div>
       <img
         className={styles.slideshow}
         src={images[currentImage]}
