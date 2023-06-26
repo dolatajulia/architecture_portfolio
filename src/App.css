@@ -5,12 +5,36 @@
   font-family: "Raleway", sans-serif;
 }
 
+::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+::-webkit-scrollbar-track {
+  background: black;
+}
+
+::-webkit-scrollbar-thumb {
+  opacity: 50%;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 100vw;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ffffff;
+}
+
+@supports (scrollbar-color: red blue) {
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(255, 255, 255, 0.3) black;
+  }
+}
+
 .marginline {
   height: 1.5rem;
   font-size: 0.8rem;
   width: 100%;
   color: #ffffff;
-  background-color: black;
   opacity: 0.3;
   display: flex;
   justify-content: flex-end;
