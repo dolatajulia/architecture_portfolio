@@ -26,6 +26,28 @@ const Aboutme = () => {
           </div>
         </div>
       </Section>
+      <Section title="Work experience">
+        <div className={styles.container}>
+          <div className={styles.element}>
+            <h3>2019</h3>
+            <h1>Architect's assistant</h1>
+            <h2>Architectural Design Studio Pracownia Projektowa 77</h2>
+            <h3>
+              assistance in the creative process, creating and completing the
+              documantation, 3D modeling
+            </h3>
+          </div>
+          <div className={styles.element}>
+            <h3>2021-2022</h3>
+            <h1>Architectural drafter</h1>
+            <h2>Mediatask</h2>
+            <h3>
+              working on 3D building scans as a basis for technical
+              documentation created in CAD software
+            </h3>
+          </div>
+        </div>
+      </Section>
     </>
   );
 };
