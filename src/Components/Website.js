@@ -4,6 +4,7 @@ import { motion, useScroll, useSpring } from "framer-motion";
 
 import Homepage from "./Homepage";
 import Projects from "./Projects";
+import Aboutme from "./Aboutme";
 
 const Website = () => {
   const { scrollYProgress } = useScroll();
@@ -17,9 +18,7 @@ const Website = () => {
       <div className={styles.container}>
         <motion.div className={styles.progressbar} style={{ scaleX }} />
         <Homepage />
-        <Projects />
-        <Projects />
-        <Projects />
+        <Aboutme />
         <Projects />
         <div className="marginline">
           <p>
