@@ -19,7 +19,7 @@ const Website = () => {
         <motion.div className={styles.progressbar} style={{ scaleX }} />
         {/* <Homepage /> */}
         <Aboutme />
-        {/* <Projects /> */}
+        <Projects />
         <div className="marginline">
           <p>
             ©2023 designed and created by Julia Dolata, all rights reserved.
