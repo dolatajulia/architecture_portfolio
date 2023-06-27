@@ -30,7 +30,7 @@ const Aboutme = () => {
               I am Julia Dolata, a soon-to-be architecture graduate, currently
               based in Poznań, Poland.
               <br /> I invite you to explore a collection of my projects,
-              research papers and sketches.
+              research papers and artworks.
             </h2>
           </div>
         </div>
@@ -79,7 +79,7 @@ const Aboutme = () => {
           </div>
           <div className={styles.element}>
             <h3>
-              other jobs not related to architecture, but improving skills such
+              and other jobs not related to architecture, but improving skills such
               as:
               <br /> customer servive, teamwork, communication, organization,
               attention to detail, time management, problem solving, and more...

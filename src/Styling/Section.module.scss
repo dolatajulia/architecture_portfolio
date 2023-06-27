@@ -4,6 +4,10 @@
   justify-content: space-between;
   color: white;
 
+  @media only screen and (max-width: 1024px) {
+    flex-direction: column;
+  }
+
   .left {
     display: flex;
     align-items: flex-start;
@@ -17,11 +21,27 @@
       position: sticky;
       top: 0;
       padding-top: 1rem;
+
+      @media only screen and (max-width: 1780px) {
+        font-size: 2rem;
+      }
+
+      @media only screen and (max-width: 1024px) {
+        font-size: 1.3rem;
+      }
     }
   }
 
   .right {
     display: flex;
     width: 55%;
+
+    @media only screen and (max-width: 1780px) {
+      width: 65%;
+    }
+
+    @media only screen and (max-width: 1024px) {
+      width: 100%;
+    }
   }
 }
