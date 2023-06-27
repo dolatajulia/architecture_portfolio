@@ -12,6 +12,8 @@ import microsoft from "../Assets/Software/microsoft.svg";
 import rhino from "../Assets/Software/rhino.svg";
 import sketchup from "../Assets/Software/sketchup.svg";
 import twinmotion from "../Assets/Software/twinmotion.svg";
+import autocad from "../Assets/Software/autocad.svg";
+import revit from "../Assets/Software/revit.svg";
 
 const Aboutme = () => {
   return (
@@ -60,7 +62,10 @@ const Aboutme = () => {
           </div>
           <div className={styles.element}>
             <h3>
-              other jobs not related to architecture, but improving skills such as:<br/> customer servive, teamwork, communication, organization, attention to detail, time management, problem solving, and more...
+              other jobs not related to architecture, but improving skills such
+              as:
+              <br /> customer servive, teamwork, communication, organization,
+              attention to detail, time management, problem solving, and more...
             </h3>
           </div>
         </div>
@@ -80,53 +85,52 @@ const Aboutme = () => {
             <h1>Software</h1>
             <div className={styles.grid}>
               <div className={styles.item}>
-                <img src={illustrator} alt="illustrator icon" />
-                <h3>Illustrator</h3>
+                <img src={autocad} alt="autocad" />
+                <h3>AutoCAD</h3>
               </div>
               <div className={styles.item}>
-                <img src={indesign} alt="indesign icon" />
-                <h3>InDesign</h3>
+                <img src={revit} alt="revit" />
+                <h3>Revit</h3>
               </div>
-              <div className={styles.item}>
-                <img src={photoshop} alt="photoshop icon" />
-                <h3>Photoshop</h3>
-              </div>
-
               <div className={styles.item}>
                 <img src={archicad} alt="archicad" />
                 <h3>Archicad</h3>
               </div>
               <div className={styles.item}>
-                <img src={blender} alt="blender icon" />
-                <h3>Blender</h3>
+                <img src={sketchup} alt="sketchup" />
+                <h3>Sketchup</h3>
               </div>
               <div className={styles.item}>
                 <img src={lumion} alt="lumion" />
                 <h3>Lumion</h3>
               </div>
               <div className={styles.item}>
-                <img src={microsoft} alt="microsoft" />
-                <h3>Microsoft Office</h3>
+                <img src={twinmotion} alt="twinmotion icon" />
+                <h3>Twinmotion</h3>
+              </div>
+              <div className={styles.item}>
+                <img src={illustrator} alt="illustrator icon" />
+                <h3>Adobe Illustrator</h3>
+              </div>
+              <div className={styles.item}>
+                <img src={indesign} alt="indesign icon" />
+                <h3>Adobe InDesign</h3>
+              </div>
+              <div className={styles.item}>
+                <img src={photoshop} alt="photoshop icon" />
+                <h3>Adobe Photoshop</h3>
+              </div>
+              <div className={styles.item}>
+                <img src={blender} alt="blender icon" />
+                <h3>Blender</h3>
               </div>
               <div className={styles.item}>
                 <img src={rhino} alt="rhino" />
                 <h3>Rhino</h3>
               </div>
               <div className={styles.item}>
-                <img src={sketchup} alt="sketchup" />
-                <h3>Sketchup</h3>
-              </div>
-              <div className={styles.item}>
-                <img src={sketchup} alt="sketchup" />
-                <h3>Sketchup</h3>
-              </div>
-              <div className={styles.item}>
-                <img src={sketchup} alt="sketchup" />
-                <h3>Sketchup</h3>
-              </div>
-              <div className={styles.item}>
-                <img src={twinmotion} alt="twinmotion icon" />
-                <h3>Twinmotion</h3>
+                <img src={microsoft} alt="microsoft" />
+                <h3>Microsoft Office</h3>
               </div>
             </div>
           </div>
