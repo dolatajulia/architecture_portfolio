@@ -10,12 +10,20 @@
     font-weight: 400;
     text-transform: uppercase;
     margin: 0.5rem 0;
+
+    @media only screen and (max-width: 1024px) {
+        font-size: 1.1rem;
+      }
   }
 
   h2 {
     font-size: 1.3rem;
     font-weight: 400;
-    margin: 0.5rem 0;
+    margin-bottom: 0.5rem;
+
+    @media only screen and (max-width: 1024px) {
+        font-size: 1rem;
+      }
   }
 
   h3,
@@ -24,6 +32,10 @@
     font-size: 1.1rem;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.5);
+
+    @media only screen and (max-width: 1024px) {
+        font-size: 1rem;
+      }
   }
 
   .element {
@@ -64,18 +76,31 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        // border: 1px solid rgba(255, 255, 255, 0.25);
+
+        @media only screen and (max-width: 1024px) {
+          justify-content: space-between;
+        }
 
         img {
           width: 7rem;
           height: 7rem;
           margin: 1rem;
           opacity: 0.3;
+
+          @media only screen and (max-width: 1024px) {
+            width: 4rem;
+            height: 4rem;
+            margin: 0.2rem;
+          }
         }
 
         h3 {
           color: white;
           margin-top: 0.5rem;
+
+          @media only screen and (max-width: 1024px) {
+            font-size: 0.8rem;
+          }
         }
       }
     }

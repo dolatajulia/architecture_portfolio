@@ -26,12 +26,12 @@ const Aboutme = () => {
               <h1>Hello and welcome to my portfolio</h1>
               <img src={star} alt="star" />
             </div>
-            <h2>
+            <h3>
               I am Julia Dolata, a soon-to-be architecture graduate, currently
               based in Poznań, Poland.
               <br /> I invite you to explore a collection of my projects,
               research papers and artworks.
-            </h2>
+            </h3>
           </div>
         </div>
       </Section>
