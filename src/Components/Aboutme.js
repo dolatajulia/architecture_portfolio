@@ -58,6 +58,11 @@ const Aboutme = () => {
               documentation created in CAD software
             </h3>
           </div>
+          <div className={styles.element}>
+            <h3>
+              other jobs not related to architecture, but improving skills such as:<br/> customer servive, teamwork, communication, organization, attention to detail, time management, problem solving, and more...
+            </h3>
+          </div>
         </div>
       </Section>
       <Section title="skills">
@@ -76,20 +81,17 @@ const Aboutme = () => {
             <div className={styles.grid}>
               <div className={styles.item}>
                 <img src={illustrator} alt="illustrator icon" />
-                <h3>Adobe<br/> Illustrator</h3>
+                <h3>Illustrator</h3>
               </div>
               <div className={styles.item}>
                 <img src={indesign} alt="indesign icon" />
-                <h3>Adobe InDesign</h3>
+                <h3>InDesign</h3>
               </div>
               <div className={styles.item}>
                 <img src={photoshop} alt="photoshop icon" />
-                <h3>Adobe Photoshop</h3>
+                <h3>Photoshop</h3>
               </div>
-              <div className={styles.item}>
-                <img src={twinmotion} alt="twinmotion icon" />
-                <h3>Twinmotion</h3>
-              </div>
+
               <div className={styles.item}>
                 <img src={archicad} alt="archicad" />
                 <h3>Archicad</h3>
@@ -122,10 +124,27 @@ const Aboutme = () => {
                 <img src={sketchup} alt="sketchup" />
                 <h3>Sketchup</h3>
               </div>
+              <div className={styles.item}>
+                <img src={twinmotion} alt="twinmotion icon" />
+                <h3>Twinmotion</h3>
+              </div>
             </div>
           </div>
           <div className={styles.element}>
             <h1>Soft skills</h1>
+            <ul>
+              <li>a lot of experience working in teams, also international</li>
+              <li>
+                used to deadline-driven approach and working under pressure
+              </li>
+              <li>open and experimental mindset</li>
+              <li>aesthetic sensitivity</li>
+              <li>critical thinking and organizational abilities</li>
+              <li>
+                willingness to learn and adapt to new environemnts and
+                situations
+              </li>
+            </ul>
           </div>
         </div>
       </Section>
