@@ -1,6 +1,18 @@
 import Section from "./Section";
 import styles from "../Styling/Aboutme.module.scss";
 
+//assests
+import illustrator from "../Assets/Software/ill.svg";
+import indesign from "../Assets/Software/ind.svg";
+import photoshop from "../Assets/Software/ps.svg";
+import archicad from "../Assets/Software/archicad.svg";
+import blender from "../Assets/Software/blender.svg";
+import lumion from "../Assets/Software/lumion.svg";
+import microsoft from "../Assets/Software/microsoft.svg";
+import rhino from "../Assets/Software/rhino.svg";
+import sketchup from "../Assets/Software/sketchup.svg";
+import twinmotion from "../Assets/Software/twinmotion.svg";
+
 const Aboutme = () => {
   return (
     <>
@@ -45,6 +57,75 @@ const Aboutme = () => {
               working on 3D building scans as a basis for technical
               documentation created in CAD software
             </h3>
+          </div>
+        </div>
+      </Section>
+      <Section title="skills">
+        <div className={styles.container}>
+          <div className={styles.element}>
+            <h1>Languages</h1>
+            <h2>
+              Polish: <span>native</span>
+            </h2>
+            <h2>
+              English: <span>fluently communicative [B2+/C1]</span>
+            </h2>
+          </div>
+          <div className={styles.element}>
+            <h1>Software</h1>
+            <div className={styles.grid}>
+              <div className={styles.item}>
+                <img src={illustrator} alt="illustrator icon" />
+                <h3>Adobe<br/> Illustrator</h3>
+              </div>
+              <div className={styles.item}>
+                <img src={indesign} alt="indesign icon" />
+                <h3>Adobe InDesign</h3>
+              </div>
+              <div className={styles.item}>
+                <img src={photoshop} alt="photoshop icon" />
+                <h3>Adobe Photoshop</h3>
+              </div>
+              <div className={styles.item}>
+                <img src={twinmotion} alt="twinmotion icon" />
+                <h3>Twinmotion</h3>
+              </div>
+              <div className={styles.item}>
+                <img src={archicad} alt="archicad" />
+                <h3>Archicad</h3>
+              </div>
+              <div className={styles.item}>
+                <img src={blender} alt="blender icon" />
+                <h3>Blender</h3>
+              </div>
+              <div className={styles.item}>
+                <img src={lumion} alt="lumion" />
+                <h3>Lumion</h3>
+              </div>
+              <div className={styles.item}>
+                <img src={microsoft} alt="microsoft" />
+                <h3>Microsoft Office</h3>
+              </div>
+              <div className={styles.item}>
+                <img src={rhino} alt="rhino" />
+                <h3>Rhino</h3>
+              </div>
+              <div className={styles.item}>
+                <img src={sketchup} alt="sketchup" />
+                <h3>Sketchup</h3>
+              </div>
+              <div className={styles.item}>
+                <img src={sketchup} alt="sketchup" />
+                <h3>Sketchup</h3>
+              </div>
+              <div className={styles.item}>
+                <img src={sketchup} alt="sketchup" />
+                <h3>Sketchup</h3>
+              </div>
+            </div>
+          </div>
+          <div className={styles.element}>
+            <h1>Soft skills</h1>
           </div>
         </div>
       </Section>
