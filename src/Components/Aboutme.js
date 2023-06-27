@@ -14,10 +14,27 @@ import sketchup from "../Assets/Software/sketchup.svg";
 import twinmotion from "../Assets/Software/twinmotion.svg";
 import autocad from "../Assets/Software/autocad.svg";
 import revit from "../Assets/Software/revit.svg";
+import star from "../Assets/star.png";
 
 const Aboutme = () => {
   return (
     <>
+      <Section>
+        <div className={styles.container}>
+          <div className={styles.intro}>
+            <div className={styles.hello}>
+              <h1>Hello and welcome to my portfolio</h1>
+              <img src={star} alt="star" />
+            </div>
+            <h2>
+              I am Julia Dolata, a soon-to-be architecture graduate, currently
+              based in Poznań, Poland.
+              <br /> I invite you to explore a collection of my projects,
+              research papers and sketches.
+            </h2>
+          </div>
+        </div>
+      </Section>
       <Section title="Education">
         <div className={styles.container}>
           <div className={styles.element}>
@@ -75,10 +92,10 @@ const Aboutme = () => {
           <div className={styles.element}>
             <h1>Languages</h1>
             <h2>
-              Polish: <span>native</span>
+              Polish <span>-- native</span>
             </h2>
             <h2>
-              English: <span>fluently communicative [B2+/C1]</span>
+              English <span>-- fluently communicative [B2+/C1]</span>
             </h2>
           </div>
           <div className={styles.element}>

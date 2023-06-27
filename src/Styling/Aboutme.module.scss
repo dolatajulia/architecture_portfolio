@@ -5,6 +5,27 @@
   justify-content: flex-start;
   margin: 1rem;
 
+  h1 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 0.5rem 0;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin: 0.5rem 0;
+  }
+
+  h3,
+  span,
+  li {
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+  }
+
   .element {
     width: 100%;
     margin: 1rem 0;
@@ -14,27 +35,6 @@
     flex-direction: column;
     border-left: 1px solid rgba(255, 255, 255, 0.25);
     padding: 0 1rem;
-
-    h1 {
-      font-size: 1.5rem;
-      font-weight: 400;
-      text-transform: uppercase;
-      margin: 0.5rem 0;
-    }
-
-    h2 {
-      font-size: 1.3rem;
-      font-weight: 400;
-      margin: 0.5rem 0;
-    }
-
-    h3,
-    span,
-    li {
-      font-size: 1.1rem;
-      font-weight: 400;
-      color: rgba(255, 255, 255, 0.5);
-    }
 
     ul {
       list-style-position: inside;
@@ -67,7 +67,23 @@
 
         h3 {
           color: white;
+          margin-top: 0.5rem;
         }
+      }
+    }
+  }
+
+  .intro {
+    width: 100%;
+    padding: 0 1rem;
+
+    .hello {
+      display: flex;
+      align-items: center;
+
+      img {
+        height: 1.2rem;
+        padding-left: 0.5rem;
       }
     }
   }
