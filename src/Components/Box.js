@@ -55,6 +55,6 @@ const Box = () => {
       />
     </div>
   ));
-  return <>{boxes}</>;
+  return <div className={styles.boxgrid}>{boxes}</div>;
 };
 export default Box;
