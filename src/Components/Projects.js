@@ -9,13 +9,9 @@ const Projects = () => {
       <div className={styles.container}>
         <Section title="Projects">
           <Box />
-          <Box />
-          <Box />
         </Section>
 
         <Section title="Research papers">
-          <Box />
-          <Box />
           <Box />
         </Section>
       </div>
