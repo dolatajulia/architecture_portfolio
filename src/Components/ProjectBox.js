@@ -2,11 +2,12 @@ import styles from "../Styling/Box.module.scss";
 
 //assets
 import arrow from "../Assets/Project_box/arrow.svg";
+import arrow5 from "../Assets/Project_box/arrow5mm.svg";
 import img1 from "../Assets/Project_box/childrenshouse.jpg";
 import img2 from "../Assets/Project_box/socialhousing.jpg";
 import img3 from "../Assets/Project_box/heritage.jpg";
 import img4 from "../Assets/Project_box/coliving.jpg";
-import img5 from "../Assets/Project_box/rakos.jpg";
+import img5 from "../Assets/Project_box/rakos.png";
 
 const data = [
   {
@@ -47,6 +48,7 @@ const Box = () => {
     <div className={styles.container}>
       <div>
         <img className={styles.arrow} src={arrow} />
+        <img className={styles.arrowhover} src={arrow5} />
         <h1>{box.title}</h1>
         <h2>{box.subtitle}</h2>
       </div>

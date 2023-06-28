@@ -2,6 +2,7 @@ import styles from "../Styling/Box.module.scss";
 
 //assets
 import arrow from "../Assets/Project_box/arrow.svg";
+import arrow5 from "../Assets/Project_box/arrow5mm.svg";
 import img1 from "../Assets/Research_box/modernist.jpg";
 import img2 from "../Assets/Research_box/communities.jpg";
 import img3 from "../Assets/Research_box/neuroarch.jpg";
@@ -41,10 +42,9 @@ const Box = () => {
     <div className={styles.container}>
       <div>
         <img className={styles.arrow} src={arrow} />
+        <img className={styles.arrowhover} src={arrow5} />
         <h1>{box.title}</h1>
         <h2>{box.subtitle}</h2>
-        <h2>{box.comment}</h2>
-        <h2>Language: {box.language}</h2>
       </div>
       <img
         className={styles.picture}

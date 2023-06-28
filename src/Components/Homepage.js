@@ -8,7 +8,6 @@ const Homepage = () => {
   return (
     <div className={styles.container}>
       <Slideshow />
-      
     </div>
   );
 };
