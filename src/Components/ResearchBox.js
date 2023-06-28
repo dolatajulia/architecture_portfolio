@@ -11,8 +11,9 @@ import img5 from "../Assets/Project_box/rakos.jpg";
 const data = [
   {
     id: 1,
-    title: "Children's House",
-    subtitle: "Kaira Looro Architecture Competition 2022",
+    title: "Modernist transformations",
+    subtitle: "Modernist transformations of existing residential areas, features of modernism in urban plans",
+    language: "English",
     img: img1,
   },
   {
@@ -45,13 +46,16 @@ const data = [
 const Box = () => {
   const boxes = data.map((box) => (
     <div className={styles.container}>
-      <img className={styles.arrow} src={arrow} />
-      <h1>{box.title}</h1>
-      <h2>{box.subtitle}</h2>
+      <div>
+        <img className={styles.arrow} src={arrow} />
+        <h1>{box.title}</h1>
+        <h2>{box.subtitle}</h2>
+        <h2>Language: {box.language}</h2>
+      </div>
       <img
         className={styles.picture}
         src={box.img}
-        alt="picture of the project"
+        alt="picture of the research"
       />
     </div>
   ));

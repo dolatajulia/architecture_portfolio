@@ -1,18 +1,18 @@
 import styles from "../Styling/Projects.module.scss";
 import "../../src/App.css";
 import Section from "./Section";
-import Box from "./Box";
+import ProjectBox from "./ProjectBox";
+import ResearchBox from "./ResearchBox";
 
 const Projects = () => {
   return (
     <>
       <div className={styles.container}>
         <Section title="Projects">
-          <Box />
+          <ProjectBox />
         </Section>
-
         <Section title="Research papers">
-          <Box />
+          <ResearchBox />
         </Section>
       </div>
     </>

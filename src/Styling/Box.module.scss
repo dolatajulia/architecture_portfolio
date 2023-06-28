@@ -6,13 +6,21 @@
   @media only screen and (max-width: 1500px) {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  @media only screen and (max-width: 1024px) {
+    grid-template-columns: repeat(1, 1fr);
+
+  }
 }
 
 .container {
   width: 20rem;
   border: solid 1px rgba(255, 255, 255, 0.25);
   padding: 1rem;
-  margin: 1rem;
+  margin: 1rem 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 
   @media only screen and (max-width: 1024px) {
     width: calc(100% - 0.6rem);
@@ -20,8 +28,8 @@
   }
 
   .picture {
-    width: 18rem;
-    height: 18rem;
+    width: 100%;
+    height: 17rem;
     object-fit: cover;
     margin-top: 1rem;
 
@@ -55,6 +63,7 @@
     font-size: 1.1rem;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 0.5rem;
 
     @media only screen and (max-width: 1024px) {
       font-size: 0.9rem;
