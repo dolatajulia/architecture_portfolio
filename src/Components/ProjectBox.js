@@ -16,21 +16,21 @@ const data = [
     title: "Children's House",
     subtitle: "Kaira Looro Architecture Competition 2022",
     img: img1,
-    link: "childrenshouse",
+    link: "childrens_house",
   },
   {
     id: 2,
     title: "Social Housing in Milan",
     subtitle: "Cooperation with Politecnico di Milano",
     img: img2,
-    link: "socialhousing",
+    link: "social_housing",
   },
   {
     id: 3,
     title: "Climbing Center",
     subtitle: "Adaptation of the castle ruins in Kells, Ireland",
     img: img3,
-    link: "climbingcenter",
+    link: "climbing_center",
   },
   {
     id: 4,
@@ -38,14 +38,14 @@ const data = [
     subtitle:
       "Bachelor Thesis at Poznan University of Technology   Faculty of Architecture",
     img: img4,
-    link: "coliving",
+    link: "co_living",
   },
   {
     id: 5,
     title: "Rakos Patak",
     subtitle: "Bike Square",
     img: img5,
-    link: "rakospatak",
+    link: "rakos_patak",
   },
 ];
 

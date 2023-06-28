@@ -1,4 +1,5 @@
 import styles from "../Styling/Box.module.scss";
+import { useNavigate } from "react-router-dom";
 
 //assets
 import arrow from "../Assets/Project_box/arrow.svg";
@@ -16,6 +17,7 @@ const data = [
     comment: "for Periodica Polytechnica Architecture",
     language: "English",
     img: img1,
+    link: "modernist_transformations",
   },
   {
     id: 2,
@@ -25,6 +27,7 @@ const data = [
     comment: "for Periodica Polytechnica Architecture",
     language: "English",
     img: img2,
+    link: "communities_and_city_structure",
   },
   {
     id: 3,
@@ -34,12 +37,14 @@ const data = [
     comment: "Master Thesis [in progress]",
     language: "English",
     img: img3,
+    link: "neuroarchitecture_and_modernism",
   },
 ];
 
 const Box = () => {
+  const navigate = useNavigate();
   const boxes = data.map((box) => (
-    <div className={styles.container}>
+    <div className={styles.container} onClick={() => navigate(`${box.link}`)}>
       <div>
         <img className={styles.arrow} src={arrow} />
         <img className={styles.arrowhover} src={arrow5} />

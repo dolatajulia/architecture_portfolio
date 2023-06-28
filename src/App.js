@@ -8,6 +8,9 @@ import ClimbingCenter from "./Components/Projects/ClimbingCenter";
 import Coliving from "./Components/Projects/Coliving";
 import RakosPatak from "./Components/Projects/RakosPatak";
 import SocialHousing from "./Components/Projects/SocialHousing";
+import ModernistTransformations from "./Components/Research/ModernistTransformations";
+import Communities from "./Components/Research/Communities";
+import Neuroarchitecture from "./Components/Research/Neuroarchitecture";
 
 //styling
 import "./App.css";
@@ -20,11 +23,17 @@ function App() {
       <Routes location={location} key={location.key}>
         <Route exact path="" element={<Website />} />
         <Route path="/contactme" element={<Contactme />} />
-        <Route path="/childrenshouse" element={<ChildrensHouse />} />
-        <Route path="/climbingcenter" element={<ClimbingCenter />} />
-        <Route path="/coliving" element={<Coliving />} />
-        <Route path="/rakospatak" element={<RakosPatak />} />
-        <Route path="/socialhousing" element={<SocialHousing />} />
+        <Route path="/childrens_house" element={<ChildrensHouse />} />
+        <Route path="/climbing_center" element={<ClimbingCenter />} />
+        <Route path="/co_living" element={<Coliving />} />
+        <Route path="/rakos_patak" element={<RakosPatak />} />
+        <Route path="/social_housing" element={<SocialHousing />} />
+        <Route
+          path="/modernist_transformations"
+          element={<ModernistTransformations />}
+        />
+        <Route path="/communities_and_city_structure" element={<Communities />} />
+        <Route path="/neuroarchitecture_and_modernism" element={<Neuroarchitecture />} />
       </Routes>
     </div>
   );
