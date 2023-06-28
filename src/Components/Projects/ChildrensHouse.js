@@ -1,18 +1,21 @@
 import ProjectLayout from "./ProjectLayout";
+import styles from "../../Styling/ProjectLayout.module.scss";
 
 //assets
 import cover from "../../Assets/Projects/ChildrensHouse/cover.png";
+import img1 from "../../Assets/Projects/ChildrensHouse/longsection.png";
 
 const ChildrensHouse = () => {
   return (
-    <ProjectLayout
-      title="Children’s House"
-      subtitle="Kaira Looro Architecture Competition 2022"
-      cover={cover}
-      team='Julia Dolata, Katarzyna Śliwka'
-      year='2022'
-      nextproject='/social_housing'
-      description="Located in Baghere Village, south Senegal, the Children’s
+    <>
+      <ProjectLayout
+        title="Children’s House"
+        subtitle="Kaira Looro Architecture Competition 2022"
+        cover={cover}
+        team="Julia Dolata, Katarzyna Śliwka"
+        year="2022"
+        nextproject="/social_housing"
+        description="Located in Baghere Village, south Senegal, the Children’s
   House presents itself as a simple construction, yet
   it is full of innovative solutions. The building’s structure
   is designed to protect the inhabitants from the harmful
@@ -30,7 +33,15 @@ const ChildrensHouse = () => {
   as a protective barrier for the interior, while its design
   allows for the integration of a water purification system
   within the building."
-    />
+      />
+      <div className={styles.container}>
+        <img
+          className={styles.fullwidthimg}
+          src={img1}
+          alt="longitudal section"
+        />
+      </div>
+    </>
   );
 };
 export default ChildrensHouse;
