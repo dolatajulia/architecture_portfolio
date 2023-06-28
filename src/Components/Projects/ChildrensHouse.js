@@ -11,6 +11,7 @@ const ChildrensHouse = () => {
       cover={cover}
       team='Julia Dolata, Katarzyna Śliwka'
       year='2022'
+      nextproject='/social_housing'
       description="Located in Baghere Village, south Senegal, the Children’s
   House presents itself as a simple construction, yet
   it is full of innovative solutions. The building’s structure

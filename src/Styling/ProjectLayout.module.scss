@@ -6,6 +6,42 @@
   color: black;
   overflow-x: hidden;
 
+  button {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    min-width: 4rem;
+    height: 4rem;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 1.2rem;
+    border-radius: 2rem;
+    background-color: transparent;
+    margin: 1rem;
+    padding: 1rem;
+    transition: all 0.2s ease-in-out;
+
+    &:hover {
+      border: 1px solid rgba(0, 0, 0, 1);
+      color: rgba(0, 0, 0, 1);
+      transform: scale(1.02);
+    }
+  }
+
+  .backbutton {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .nextbutton {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
   h1 {
     text-transform: uppercase;
     font-size: 3.5rem;
