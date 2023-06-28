@@ -17,7 +17,7 @@ const Website = () => {
     <>
       <div className={styles.container}>
         <motion.div className={styles.progressbar} style={{ scaleX }} />
-        <Homepage />
+        {/* <Homepage /> */}
         <Aboutme />
         <Projects />
         <div className="marginline">

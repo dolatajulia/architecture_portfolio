@@ -31,6 +31,7 @@
   &:hover {
     border: solid 1px rgba(255, 255, 255, 1);
     transform: scale(1.01);
+    cursor: pointer;
 
     .arrow {
       display: none;
