@@ -14,7 +14,7 @@ const ResearchLayout = (props) => {
         <p><span>Keywords:</span> {props.keywords}</p>
         <p><span>Abstract:</span> {props.abstract}</p>
       </div>
-      <button>read the full article</button>
+      <a href={props.link} target="_blank">read the full article</a>
     </div>
   );
 };

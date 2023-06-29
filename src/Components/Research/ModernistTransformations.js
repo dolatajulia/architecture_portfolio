@@ -12,6 +12,7 @@ const ModernistTransformations = () => {
       Economics, Budapest, Hungary"
       keywords="modernism, modernist transformation, Zeilenbau, Le Corbusier, Josef Llouis Sert, Paris, Barcelona, redent, solar orientation, plan
       Voisin, GCATSPAC, urban planning"
+      link='https://drive.google.com/file/d/1UEX3T_4XSCNQ8N8MInYYt6gpaTR5uCwg/view?usp=sharing'
       abstract="This article aims to analyze the modernist transformations of residential areas with the focus on Zeilenbau and planned
       transformations of Paris (by Le Corbusier) and Barcelona (by Josef Llouis Sert). It explains the XIX-XX century’s housing
       architecture underlining the issues existing at the time such as improper organization, overcrowding, hygiene and health
