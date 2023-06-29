@@ -154,7 +154,7 @@ const Aboutme = () => {
           <div className={styles.element}>
             <h1>Soft skills</h1>
             <ul>
-              <li>a lot of experience working in teams, also international</li>
+              <li>a lot of experience in working in teams, also international</li>
               <li>
                 used to deadline-driven approach and working under pressure
               </li>
