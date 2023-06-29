@@ -11,6 +11,7 @@ import SocialHousing from "./Components/Projects/SocialHousing";
 import ModernistTransformations from "./Components/Research/ModernistTransformations";
 import Communities from "./Components/Research/Communities";
 import Neuroarchitecture from "./Components/Research/Neuroarchitecture";
+import ScrollToTop from "./Components/ScrollToTop";
 
 //styling
 import "./App.css";
@@ -20,6 +21,7 @@ function App() {
 
   return (
     <div className="App">
+      <ScrollToTop />
       <Routes location={location} key={location.key}>
         <Route exact path="" element={<Website />} />
         <Route path="/contactme" element={<Contactme />} />
@@ -32,8 +34,14 @@ function App() {
           path="/modernist_transformations"
           element={<ModernistTransformations />}
         />
-        <Route path="/communities_and_city_structure" element={<Communities />} />
-        <Route path="/neuroarchitecture_and_modernism" element={<Neuroarchitecture />} />
+        <Route
+          path="/communities_and_city_structure"
+          element={<Communities />}
+        />
+        <Route
+          path="/neuroarchitecture_and_modernism"
+          element={<Neuroarchitecture />}
+        />
       </Routes>
     </div>
   );
