@@ -3,7 +3,6 @@ import "../../App.css";
 import styles from "../../Styling/ResearchLayout.module.scss";
 
 const ResearchLayout = (props) => {
-  const visibility = props.visibility;
   return (
     <div className={styles.container}>
       <div className={styles.intro}>

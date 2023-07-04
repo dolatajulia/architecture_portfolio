@@ -3,7 +3,11 @@ import styles from "../../Styling/ProjectLayout.module.scss";
 
 //assets
 import cover from "../../Assets/Projects/ChildrensHouse/cover.png";
-import img1 from "../../Assets/Projects/ChildrensHouse/longsection.png";
+import img1 from "../../Assets/Projects/ChildrensHouse/podluzny.png";
+import img2 from "../../Assets/Projects/ChildrensHouse/poprzeczny.png";
+import img3 from "../../Assets/Projects/ChildrensHouse/explosion.png";
+import img4 from "../../Assets/Projects/ChildrensHouse/wizkabok.jpg";
+import img5 from "../../Assets/Projects/ChildrensHouse/rzut.png";
 
 const ChildrensHouse = () => {
   return (
@@ -34,12 +38,18 @@ const ChildrensHouse = () => {
   allows for the integration of a water purification system
   within the building."
       />
-      <div className={styles.container}>
+      <div className={styles.projectcontainer}>
+        <img className={styles.fullwidthimg} src={img5} alt="img" />
         <img
           className={styles.fullwidthimg}
           src={img1}
           alt="longitudal section"
         />
+        <img className={styles.fullwidthimg} src={img2} alt="img" />
+        <img className={styles.fullwidthimg} src={img4} alt="img" />
+        <div className={styles.pair}>
+          <img className={styles.fourty} src={img3} alt="img" />
+        </div>
       </div>
     </>
   );
