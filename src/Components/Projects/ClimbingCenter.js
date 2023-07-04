@@ -1,19 +1,26 @@
 import ProjectLayout from "./ProjectLayout";
+import styles from "../../Styling/ProjectLayout.module.scss";
 
 //assets
 import cover from "../../Assets/Projects/ClimbingCenter/cover.jpg";
+import img1 from "../../Assets/Projects/ClimbingCenter/plan.jpg";
+import img2 from "../../Assets/Projects/ClimbingCenter/before_optimized.png";
+import img3 from "../../Assets/Projects/ClimbingCenter/after_optimized.png";
+import img4 from "../../Assets/Projects/ClimbingCenter/wizka2screen_optimized.png";
+
 
 const ClimbingCenter = () => {
   return (
-    <ProjectLayout
-      title="Climbing Center"
-      subtitle="Adaptation of the castle ruins
+    <>
+      <ProjectLayout
+        title="Climbing Center"
+        subtitle="Adaptation of the castle ruins
       in Kells"
-      cover={cover}
-      team="Julia Dolata, Katarzyna Śliwka"
-      year="2023"
-      nextproject="/co_living"
-      description="The project aims to transform the ancient ruins of Kells
+        cover={cover}
+        team="Julia Dolata, Katarzyna Śliwka"
+        year="2023"
+        nextproject="/co_living"
+        description="The project aims to transform the ancient ruins of Kells
       into a vibrant and engaging climbing center, revitalizing
       the site and making it a sought-after destination once
       again. The existing ruins are nestled within the serene
@@ -32,7 +39,21 @@ const ClimbingCenter = () => {
       facilities will enhance the overall visitor experience, catering
       to the needs of climbers and ensuring their comfort
       and convenience."
-    />
+      />
+      <div className={styles.projectcontainer}>
+        <div className={styles.pair}>
+          <img className={styles.fifty} src={img2} alt="img" />
+          <img
+            className={styles.fifty}
+            style={{ scale: "95%" }}
+            src={img3}
+            alt="img"
+          />
+        </div>
+        <img className={styles.fullwidthheightimg} src={img1} alt="img" />
+        <img className={styles.fullwidthheightimg} src={img4} alt="img" />
+      </div>
+    </>
   );
 };
 export default ClimbingCenter;
