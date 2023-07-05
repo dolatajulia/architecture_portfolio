@@ -46,3 +46,35 @@
   display: none;
   color: red;
 }
+
+.contact {
+  width: 5rem;
+  height: 5rem;
+  position: fixed;
+  top: 1.5rem;
+  right: 1rem;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 50%;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  transition: all 0.2s ease-in-out;
+  z-index: 100;
+}
+
+.contact_bckg {
+  background-color: white;
+  color: black;
+}
+
+.contact:hover {
+  transform: scale(1.15);
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
