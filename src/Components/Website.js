@@ -33,7 +33,7 @@ const Website = () => {
         <motion.div className={styles.progressbar} style={{ scaleX }} />
         <div
           className={color ? "contact contact_bckg" : "contact"}
-          onClick={() => navigate(`/contactme`)}
+          onClick={() => navigate('/contactme')}
         >
           contact
         </div>
