@@ -7,7 +7,7 @@ import { useNavigate } from "react-router-dom";
 import Homepage from "./Homepage";
 import Projects from "./Projects";
 import Aboutme from "./Aboutme";
-import Contactme from "./Contactme";
+import Downloads from "./Downloads";
 
 const Website = () => {
   const { scrollYProgress } = useScroll();
@@ -40,6 +40,7 @@ const Website = () => {
         <Homepage />
         <Aboutme />
         <Projects />
+        <Downloads />
         <div className="marginline">
           <p>
             ©2023 designed and created by Julia Dolata, all rights reserved.
