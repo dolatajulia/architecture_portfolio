@@ -1,7 +1,7 @@
 {
   "name": "architectureportfolio",
   "version": "0.1.0",
-  "homepage": "https://dolatajulia.github.io/architecture_portfolio",
+  "homepage": "http://dolata.portfolio.com/",
   "private": true,
   "dependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
