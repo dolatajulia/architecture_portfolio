@@ -35,7 +35,7 @@ const Coliving = () => {
       It aims to introduce a fresh perspective and innovative
       solutions that are infrequently employed in the realm of
       Polish housing."
-    />
+    ></ProjectLayout>
   );
 };
 export default Coliving;

@@ -34,14 +34,15 @@ const RakosPatak = () => {
       sightseeing ventures. Its unique location amidst nature
       provides a tranquil environment, perfect for relaxation
       and recreational activities."
-      />
-      <div className={styles.projectcontainer}>
-        <img className={styles.fullwidthimg} src={img3} alt="img" />
-        <img className={styles.fullwidthheightimg} src={img5} alt="img" />
-        <img className={styles.fullwidthimg} src={img1} alt="img" />
-        <img className={styles.fullwidthimg} src={img2} alt="img" />
-        <img className={styles.fullwidthimg} src={img4} alt="img" />
-      </div>
+      >
+        <div className={styles.projectcontainer}>
+          <img className={styles.fullwidthimg} src={img3} alt="img" />
+          <img className={styles.fullwidthheightimg} src={img5} alt="img" />
+          <img className={styles.fullwidthimg} src={img1} alt="img" />
+          <img className={styles.fullwidthimg} src={img2} alt="img" />
+          <img className={styles.fullwidthimg} src={img4} alt="img" />
+        </div>
+      </ProjectLayout>
     </>
   );
 };

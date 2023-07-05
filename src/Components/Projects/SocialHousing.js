@@ -39,16 +39,17 @@ const SocialHousing = () => {
       with the bustling city center of Milan. This promotes a
       lively and engaging streetscape, enhancing connectivity
       and promoting a vibrant urban atmosphere."
-      />
-      <div className={styles.projectcontainer}>
-        <img className={styles.fullwidthimg} src={img1} alt="img" />
-        <div className={styles.pair}>
-          <img className={styles.fourty} src={img3} alt="img" />
-          <img className={styles.sixty} src={img2} alt="img" />
+      >
+        <div className={styles.projectcontainer}>
+          <img className={styles.fullwidthimg} src={img1} alt="img" />
+          <div className={styles.pair}>
+            <img className={styles.fourty} src={img3} alt="img" />
+            <img className={styles.sixty} src={img2} alt="img" />
+          </div>
+          <img className={styles.fullwidthheightimg} src={img4} alt="img" />
+          <img className={styles.fullwidthheightimg} src={img5} alt="img" />
         </div>
-        <img className={styles.fullwidthheightimg} src={img4} alt="img" />
-        <img className={styles.fullwidthheightimg} src={img5} alt="img" />
-      </div>
+      </ProjectLayout>
     </>
   );
 };

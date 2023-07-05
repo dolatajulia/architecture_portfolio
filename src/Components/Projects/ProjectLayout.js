@@ -31,6 +31,7 @@ const ProjectLayout = (props) => {
           </div>
         </div>
       </div>
+      {props.children}
     </div>
   );
 };

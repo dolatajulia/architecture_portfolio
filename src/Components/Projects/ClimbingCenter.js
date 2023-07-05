@@ -8,7 +8,6 @@ import img2 from "../../Assets/Projects/ClimbingCenter/before_optimized.png";
 import img3 from "../../Assets/Projects/ClimbingCenter/after_optimized.png";
 import img4 from "../../Assets/Projects/ClimbingCenter/wizka2screen_optimized.png";
 
-
 const ClimbingCenter = () => {
   return (
     <>
@@ -39,20 +38,21 @@ const ClimbingCenter = () => {
       facilities will enhance the overall visitor experience, catering
       to the needs of climbers and ensuring their comfort
       and convenience."
-      />
-      <div className={styles.projectcontainer}>
-        <div className={styles.pair}>
-          <img className={styles.fifty} src={img2} alt="img" />
-          <img
-            className={styles.fifty}
-            style={{ scale: "95%" }}
-            src={img3}
-            alt="img"
-          />
+      >
+        <div className={styles.projectcontainer}>
+          <div className={styles.pair}>
+            <img className={styles.fifty} src={img2} alt="img" />
+            <img
+              className={styles.fifty}
+              style={{ scale: "95%" }}
+              src={img3}
+              alt="img"
+            />
+          </div>
+          <img className={styles.fullwidthheightimg} src={img1} alt="img" />
+          <img className={styles.fullwidthheightimg} src={img4} alt="img" />
         </div>
-        <img className={styles.fullwidthheightimg} src={img1} alt="img" />
-        <img className={styles.fullwidthheightimg} src={img4} alt="img" />
-      </div>
+      </ProjectLayout>
     </>
   );
 };

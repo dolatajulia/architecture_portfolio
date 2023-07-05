@@ -37,20 +37,21 @@ const ChildrensHouse = () => {
   as a protective barrier for the interior, while its design
   allows for the integration of a water purification system
   within the building."
-      />
-      <div className={styles.projectcontainer}>
-        <img className={styles.fullwidthimg} src={img5} alt="img" />
-        <img
-          className={styles.fullwidthimg}
-          src={img1}
-          alt="longitudal section"
-        />
-        <img className={styles.fullwidthimg} src={img2} alt="img" />
-        <img className={styles.fullwidthimg} src={img4} alt="img" />
-        <div className={styles.pair}>
-          <img className={styles.fourty} src={img3} alt="img" />
+      >
+        <div className={styles.projectcontainer}>
+          <img className={styles.fullwidthimg} src={img5} alt="img" />
+          <img
+            className={styles.fullwidthimg}
+            src={img1}
+            alt="longitudal section"
+          />
+          <img className={styles.fullwidthimg} src={img2} alt="img" />
+          <img className={styles.fullwidthimg} src={img4} alt="img" />
+          <div className={styles.pair}>
+            <img className={styles.fourty} src={img3} alt="img" />
+          </div>
         </div>
-      </div>
+      </ProjectLayout>
     </>
   );
 };
