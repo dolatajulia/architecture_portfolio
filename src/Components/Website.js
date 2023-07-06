@@ -8,6 +8,7 @@ import Homepage from "./Homepage";
 import Projects from "./Projects";
 import Aboutme from "./Aboutme";
 import Downloads from "./Downloads";
+import Artworks from "./Artworks";
 
 const Website = () => {
   const { scrollYProgress } = useScroll();
@@ -40,6 +41,7 @@ const Website = () => {
         <Homepage />
         <Aboutme />
         <Projects />
+        <Artworks />
         <Downloads />
         <div className="marginline">
           <p>
