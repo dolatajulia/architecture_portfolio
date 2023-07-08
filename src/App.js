@@ -12,6 +12,9 @@ import ModernistTransformations from "./Components/Research/ModernistTransformat
 import Communities from "./Components/Research/Communities";
 import Neuroarchitecture from "./Components/Research/Neuroarchitecture";
 import ScrollToTop from "./Components/ScrollToTop";
+import Sketches from "./Components/Sketches";
+import Posters from "./Components/Posters";
+import Paintings from "./Components/Paintings";
 
 //styling
 import "./App.css";
@@ -42,6 +45,9 @@ function App() {
           path="/neuroarchitecture_and_modernism"
           element={<Neuroarchitecture />}
         />
+        <Route path="/sketches" element={<Sketches />} />
+        <Route path="/posters" element={<Posters />} />
+        <Route path="/paintings" element={<Paintings />} />
       </Routes>
     </div>
   );

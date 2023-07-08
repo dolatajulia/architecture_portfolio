@@ -16,20 +16,21 @@ const data = [
     subtitle:
       "A collection of posters created for Poznan University of Technology used as graphics for the university merch",
     img: img1,
-    link: "modernist_transformations",
+    link: "posters",
   },
   {
     id: 2,
     title: "Sketches",
     subtitle: "A collection of freehand sketches",
     img: img2,
-    link: "communities_and_city_structure",
+    link: "sketches",
   },
   {
     id: 3,
     title: "Paintings",
     subtitle: "A collection of paintings",
-    link: "neuroarchitecture_and_modernism",
+    img: img3,
+    link: "paintings",
   },
 ];
 
