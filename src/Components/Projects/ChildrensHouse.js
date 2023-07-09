@@ -76,15 +76,15 @@ const ChildrensHouse = () => {
             <img src={img4} alt="img" />
           </div>
           <div className={styles.pair}>
-            <div className={styles.doubleimgcolumn} style={{width: '50%'}}>
+            <div className={styles.doubleimgcolumn} style={{ width: "50%" }}>
               <img src={img10} alt="img" />
-              <img src={img11} alt="img" />
+              <img src={img11} alt="img" style={{ marginTop: "1rem" }} />
             </div>
             <img
               className={styles.fifty}
               src={img3}
               alt="img"
-              style={{ objectFit: "contain", marginLeft: "1rem" }}
+              style={{ objectFit: "contain", paddingLeft: "1rem" }}
             />
           </div>
           <div className={styles.pair}>

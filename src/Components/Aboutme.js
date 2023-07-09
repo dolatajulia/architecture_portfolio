@@ -14,7 +14,6 @@ import sketchup from "../Assets/Software/sketchup.svg";
 import twinmotion from "../Assets/Software/twinmotion.svg";
 import autocad from "../Assets/Software/autocad.svg";
 import revit from "../Assets/Software/revit.svg";
-import star from "../Assets/star.png";
 
 const Aboutme = () => {
   return (
@@ -24,11 +23,10 @@ const Aboutme = () => {
           <div className={styles.intro}>
             <div className={styles.hello}>
               <h1>Hello and welcome to my portfolio</h1>
-              <img src={star} alt="star" />
             </div>
             <h3>
-              I am Julia Dolata, a soon-to-be architecture graduate, currently
-              based in Poznań, Poland.
+              I am Julia Dolata, an architecture student pursuing a Master's
+              degree, currently based in Poznań, Poland.
               <br /> I invite you to explore a collection of my projects,
               research papers and artworks.
             </h3>
@@ -79,8 +77,8 @@ const Aboutme = () => {
           </div>
           <div className={styles.element}>
             <h3>
-              and other jobs not related to architecture, but improving skills such
-              as:
+              and other jobs not related to architecture, but improving skills
+              such as:
               <br /> customer servive, teamwork, communication, organization,
               attention to detail, time management, problem solving, and more...
             </h3>
@@ -154,7 +152,9 @@ const Aboutme = () => {
           <div className={styles.element}>
             <h1>Soft skills</h1>
             <ul>
-              <li>a lot of experience in working in teams, also international</li>
+              <li>
+                a lot of experience in working in teams, also international
+              </li>
               <li>
                 used to deadline-driven approach and working under pressure
               </li>
