@@ -52,6 +52,7 @@ const ChildrensHouse = () => {
             <img src={img5} alt="img" />
           </div>
           <div className={styles.fullwidthimg}>
+            <img src={img1} alt="longitudinal section" />
             <p style={{ left: "2rem" }}>
               <em>longitudinal section</em>
               <br />
@@ -60,9 +61,9 @@ const ChildrensHouse = () => {
               find a peaceful hospitality corner with dormitories that are
               connected with the doctor’s office.
             </p>
-            <img src={img1} alt="longitudinal section" />
           </div>
           <div className={styles.fullwidthimg}>
+            <img src={img2} alt="img" />
             <p style={{ right: "2rem" }}>
               <em>cross-section</em>
               <br />
@@ -70,21 +71,24 @@ const ChildrensHouse = () => {
               functionality and occupant well-being. The outer layer acts as a
               shield, providing ventilation and protection from rain and sun.
             </p>
-            <img src={img2} alt="img" />
           </div>
           <div className={styles.fullwidthimg}>
             <img src={img4} alt="img" />
           </div>
           <div className={styles.pair}>
-            <div className={styles.doubleimgcolumn} style={{ width: "50%" }}>
+            <div className={styles.doubleimgcolumn}>
               <img src={img10} alt="img" />
-              <img src={img11} alt="img" style={{ marginTop: "1rem" }} />
+              <img src={img11} alt="img" style={{ marginTop: "2rem" }} />
             </div>
             <img
               className={styles.fifty}
               src={img3}
               alt="img"
-              style={{ objectFit: "contain", paddingLeft: "1.5rem" }}
+              style={{
+                objectFit: "contain",
+                paddingLeft: "1.5rem",
+                marginTop: "2rem",
+              }}
             />
           </div>
           <div className={styles.pair}>

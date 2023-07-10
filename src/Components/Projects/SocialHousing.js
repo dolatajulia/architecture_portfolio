@@ -54,7 +54,10 @@ const SocialHousing = () => {
           >
             <img src={img4} alt="img" />
           </div>
-          <div className={styles.fullwidthimg} style={{ maxHeight: "calc(100vh * 0.8)" }}>
+          <div
+            className={styles.fullwidthimg}
+            style={{ maxHeight: "calc(100vh * 0.8)" }}
+          >
             <img src={img5} alt="img" />
           </div>
         </div>
