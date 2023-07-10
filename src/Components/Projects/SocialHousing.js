@@ -41,13 +41,22 @@ const SocialHousing = () => {
       and promoting a vibrant urban atmosphere."
       >
         <div className={styles.projectcontainer}>
-          <img className={styles.fullwidthimg} src={img1} alt="img" />
+          <div className={styles.fullwidthimg}>
+            <img src={img1} alt="img" />
+          </div>
           <div className={styles.pair}>
             <img className={styles.fourty} src={img3} alt="img" />
             <img className={styles.sixty} src={img2} alt="img" />
           </div>
-          <img className={styles.fullwidthheightimg} src={img4} alt="img" />
-          <img className={styles.fullwidthheightimg} src={img5} alt="img" />
+          <div
+            className={styles.fullwidthimg}
+            style={{ maxHeight: "calc(100vh * 1.1)" }}
+          >
+            <img src={img4} alt="img" />
+          </div>
+          <div className={styles.fullwidthimg} style={{ maxHeight: "calc(100vh * 0.8)" }}>
+            <img src={img5} alt="img" />
+          </div>
         </div>
       </ProjectLayout>
     </>

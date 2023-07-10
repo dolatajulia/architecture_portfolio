@@ -84,7 +84,7 @@ const ChildrensHouse = () => {
               className={styles.fifty}
               src={img3}
               alt="img"
-              style={{ objectFit: "contain", paddingLeft: "1rem" }}
+              style={{ objectFit: "contain", paddingLeft: "1.5rem" }}
             />
           </div>
           <div className={styles.pair}>
