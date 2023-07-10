@@ -21,6 +21,7 @@ const ModernistTransformations = () => {
       disadvantages and a comparison highlighting the reasons for success or failure. Moreover, the article investigates the effects and
       influence of realized modernist plans."
       image={img}
+      nextproject="/communities_and_city_structure"
     />
   );
 };

@@ -14,8 +14,8 @@ const Neuroarchitecture = () => {
       abstract="The Master Thesis is in progress."
       image={img}
       visibility="hidden"
+      nextproject="/modernist_transformations"
     />
   );
 };
 export default Neuroarchitecture;
-

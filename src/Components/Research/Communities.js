@@ -21,6 +21,8 @@ const Communities = () => {
       can be observed. Moreover, one of the major aims of this article is to create a comparison of the pre-war and current structure of
       the city, with special regard to the locations of gated communities and usage of the semi-private space."
       image={img}
+      nextproject="/neuroarchitecture_and_modernism"
+
     />
   );
 };

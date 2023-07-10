@@ -28,7 +28,7 @@ const data = [
   {
     id: 3,
     title: "Paintings",
-    subtitle: "A collection of paintings",
+    subtitle: "A collection of paintings, documented artistic experiments and explorations",
     img: img3,
     link: "paintings",
   },
