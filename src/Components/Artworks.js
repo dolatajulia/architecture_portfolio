@@ -5,9 +5,10 @@ import { useNavigate } from "react-router-dom";
 //assets
 import arrow from "../Assets/Project_box/arrow.svg";
 import arrow5 from "../Assets/Project_box/arrow5mm.svg";
-import img1 from "../Assets/Research_box/modernist.jpg";
-import img2 from "../Assets/Research_box/communities.jpg";
-import img3 from "../Assets/Research_box/neuroarch.jpg";
+import img1 from "../Assets/Artwork_box/iconposter.jpg";
+import img2 from "../Assets/Artwork_box/twarz.jpg";
+import img3 from "../Assets/Artwork_box/ikona.jpg";
+
 
 const data = [
   {

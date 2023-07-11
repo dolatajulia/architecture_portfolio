@@ -43,7 +43,7 @@ const ResearchLayout = (props) => {
           className={styles.nextbutton}
           onClick={() => navigate(`${props.nextproject}`)}
         >
-          next project
+          next
         </button>
       </div>
       <div className={styles.intro}>
