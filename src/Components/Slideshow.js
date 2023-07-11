@@ -55,6 +55,7 @@ const Slideshow = () => {
     const interval = setInterval(switchImage, 300);
     return () => clearInterval(interval);
   }, [currentImage]);
+
   return (
     <div className={styles.container}>
       <div className={styles.logo}>

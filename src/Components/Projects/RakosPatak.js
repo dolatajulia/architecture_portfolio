@@ -5,9 +5,9 @@ import styles from "../../Styling/ProjectLayout.module.scss";
 import cover from "../../Assets/Projects/RakosPatak/coverscreen.png";
 import img1 from "../../Assets/Projects/RakosPatak/elewacjascreen.png";
 import img2 from "../../Assets/Projects/RakosPatak/sectionscreen.png";
-import img3 from "../../Assets/Projects/RakosPatak/wizkzaele_optimized.png";
-import img4 from "../../Assets/Projects/RakosPatak/zlotuptaka_optimized.png";
+import img3 from "../../Assets/Projects/RakosPatak/wizka1.jpg";
 import img5 from "../../Assets/Projects/RakosPatak/plan.png";
+import img6 from "../../Assets/Projects/RakosPatak/wizka2.jpg";
 
 const RakosPatak = () => {
   return (
@@ -36,11 +36,32 @@ const RakosPatak = () => {
       and recreational activities."
       >
         <div className={styles.projectcontainer}>
-          <img className={styles.fullwidthimg} src={img3} alt="img" />
           <img className={styles.fullwidthheightimg} src={img5} alt="img" />
-          <img className={styles.fullwidthimg} src={img1} alt="img" />
-          <img className={styles.fullwidthimg} src={img2} alt="img" />
-          <img className={styles.fullwidthimg} src={img4} alt="img" />
+          <div className={styles.fullwidthimg}>
+            <img src={img1} alt="img" />
+            <p style={{ left: "2rem" }}>
+              <em>main elevation</em>
+              <br />
+              The main elevation of the strucure showing an example of
+              organization of the modules.
+            </p>
+          </div>
+          <div className={styles.fullwidthimg}>
+            <p style={{ right: "2rem" }}>
+              <em>cross-section</em>
+              <br />
+              The section shows the organization of the interior of the closed
+              modules.
+            </p>
+            <img src={img2} alt="img" />
+          </div>
+          <div className={styles.fullwidthimg}>
+            <img src={img3} alt="img" />
+          </div>
+          <div className={styles.fullwidthimg}>
+            <img src={img6} alt="img" />
+          </div>
+         
         </div>
       </ProjectLayout>
     </>
