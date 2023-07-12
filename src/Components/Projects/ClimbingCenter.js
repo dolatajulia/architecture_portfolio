@@ -6,7 +6,9 @@ import cover from "../../Assets/Projects/ClimbingCenter/cover.jpg";
 import img1 from "../../Assets/Projects/ClimbingCenter/plan.jpg";
 import img2 from "../../Assets/Projects/ClimbingCenter/before_optimized.png";
 import img3 from "../../Assets/Projects/ClimbingCenter/after_optimized.png";
-import img4 from "../../Assets/Projects/ClimbingCenter/wizka2screen_optimized.png";
+import img4 from "../../Assets/Projects/ClimbingCenter/SITE.jpg";
+import img5 from "../../Assets/Projects/ClimbingCenter/zamek.jpg";
+import img6 from "../../Assets/Projects/ClimbingCenter/wizkomp.jpg";
 
 const ClimbingCenter = () => {
   return (
@@ -41,7 +43,12 @@ const ClimbingCenter = () => {
       >
         <div className={styles.projectcontainer}>
           <div className={styles.pair}>
-            <img className={styles.fifty} src={img2} alt="img" />
+            <img
+              className={styles.fifty}
+              style={{ scale: "90%" }}
+              src={img2}
+              alt="img"
+            />
             <img
               className={styles.fifty}
               style={{ scale: "95%" }}
@@ -49,8 +56,22 @@ const ClimbingCenter = () => {
               alt="img"
             />
           </div>
-          <img className={styles.fullwidthheightimg} src={img1} alt="img" />
           <img className={styles.fullwidthheightimg} src={img4} alt="img" />
+          <img className={styles.fullwidthheightimg} src={img1} alt="img" />
+          <div className={styles.pair}>
+            <img
+              className={styles.fifty}
+              // style={{ scale: "90%" }}
+              src={img6}
+              alt="img"
+            />
+            {/* <img
+              className={styles.fifty}
+              style={{ scale: "95%" }}
+              src={img3}
+              alt="img"
+            /> */}
+          </div>
         </div>
       </ProjectLayout>
     </>
