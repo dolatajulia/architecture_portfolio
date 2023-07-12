@@ -1,10 +1,10 @@
 import styles from "../Styling/ProjectLayout.module.scss";
 import ProjectLayout from "./Projects/ProjectLayout";
 
-import cover from "../Assets/Artwork_box/coversketches.jpg";
-import img1 from "../Assets/Artwork_box/postercampus.png";
-import img2 from "../Assets/Artwork_box/posterarch.png";
-import img3 from "../Assets/Artwork_box/posterwindows.png";
+import cover from "../Assets/Artwork_box/covertwarz.jpg";
+import img1 from "../Assets/Artwork_box/gaudi.jpg";
+import img2 from "../Assets/Artwork_box/calatwarz.jpg";
+import img5 from "../Assets/Artwork_box/pani.jpg";
 
 const Sketches = () => {
   return (
@@ -35,7 +35,7 @@ const Sketches = () => {
           <img
             className={styles.fullwidthheightimg}
             style={{ maxHeight: "100vh", objectFit: "contain" }}
-            src={img3}
+            src={img5}
             alt="img"
           />
         </div>
