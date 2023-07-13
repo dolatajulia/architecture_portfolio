@@ -1,7 +1,14 @@
 import ProjectLayout from "./ProjectLayout";
+import styles from "../../Styling/ProjectLayout.module.scss";
 
 //assets
 import cover from "../../Assets/Projects/CoLiving/cover.jpg";
+import img1 from "../../Assets/Projects/CoLiving/formdev.png";
+import img2 from "../../Assets/Projects/CoLiving/wizka.jpg";
+import img3 from "../../Assets/Projects/CoLiving/photo1.png";
+import img4 from "../../Assets/Projects/CoLiving/photo2.png";
+import img5 from "../../Assets/Projects/CoLiving/rzut150.jpg";
+import img6 from "../../Assets/Projects/CoLiving/plan.png";
 
 const Coliving = () => {
   return (
@@ -35,7 +42,39 @@ const Coliving = () => {
       It aims to introduce a fresh perspective and innovative
       solutions that are infrequently employed in the realm of
       Polish housing."
-    ></ProjectLayout>
+    >
+      <div className={styles.projectcontainer}>
+        <div className={styles.pair}>
+          <p
+            className={styles.fourty}
+            style={{
+              paddingRight: "2rem",
+              display: "flex",
+              justifyContent: "flex-end",
+              flexDirection: "column",
+            }}
+          >
+            <em>Form development</em>
+            <br /> The form development scheme involved aligning with
+            regulations and extending existing buildings boundaries. Contextual
+            considerations led to the implementation of a mansard roof and a
+            beveled corner. The building form was dynamically divided into two
+            wings, creating a connection between the street and courtyard.
+            Terraces were incorporated for outdoor recreation and social
+            interaction, fostering community engagement.
+          </p>
+          <img className={styles.sixty} src={img2} alt="img" />
+        </div>
+        <img className={styles.fullwidthheightimg} src={img1} alt="img" />
+        <img className={styles.fullwidthheightimg} src={img6} alt="img" />
+
+        <div className={styles.pair}>
+          <img className={styles.fifty} src={img3} alt="img" />
+          <img className={styles.fifty} src={img4} alt="img" />
+        </div>
+        <img className={styles.fullwidthheightimg} src={img5} alt="img" />
+      </div>
+    </ProjectLayout>
   );
 };
 export default Coliving;
