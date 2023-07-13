@@ -162,7 +162,7 @@ const Aboutme = () => {
               <li>aesthetic sensitivity</li>
               <li>critical thinking and organizational abilities</li>
               <li>
-                willingness to learn and adapt to new environemnts and
+                willingness to learn and adapt to new environments and
                 situations
               </li>
             </ul>
