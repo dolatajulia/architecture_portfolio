@@ -156,7 +156,7 @@ const Aboutme = () => {
                 a lot of experience in working in teams, also international
               </li>
               <li>
-                used to deadline-driven approach and working under pressure
+                used to a deadline-driven approach and working under pressure
               </li>
               <li>open and experimental mindset</li>
               <li>aesthetic sensitivity</li>
